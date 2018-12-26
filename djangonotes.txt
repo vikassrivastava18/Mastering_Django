@@ -1,0 +1,14 @@
+1)from django.http import Http404
+
+try:
+	offset = int(input)
+except ValueError:
+	raise Http404()
+
+2)assert False
+
+
+3){{ date_input|date:"F J, Y" }}
+
+
+	
